@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Web-based_Code_Complexity_measuring_Tool">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes/" source-path="/ImportedClasses"/>
+        <dependent-module archiveName="jstl-1.2.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jstl-1.2/jstl-1.2">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-io-2.6.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-io-2.6/commons-io-2.6">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload-1.4.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload-1.4/commons-fileupload-1.4">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Web-based_Code_Complexity_measuring_Tool"/>
+        <property name="java-output-path" value="/Web-based_Code_Complexity_measuring_Tool/build/classes"/>
+    </wb-module>
+</project-modules>
